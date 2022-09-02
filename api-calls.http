@@ -1,0 +1,9 @@
+POST http://localhost:6001/api/phonebill/
+Content-Type: application/json
+{
+    "price_plan" : "call 201",
+    "actions" : "call, sms, call, sms"
+}
+###
+GET http://localhost:6001/api/price_plans/
+###
